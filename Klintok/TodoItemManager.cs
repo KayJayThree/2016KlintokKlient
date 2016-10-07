@@ -132,6 +132,7 @@ namespace Klintok
                     syncErrors = exc.PushResult.Errors;
                 }
             }
+            
 
             // Simple error/conflict handling. A real application would handle the various errors like network conditions,
             // server conflicts and others via the IMobileServiceSyncHandler.
